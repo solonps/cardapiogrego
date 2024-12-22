@@ -1,0 +1,70 @@
+<!-- HTML: Grecian Food Menu -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grecian Food - Cardápio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Grecian Food</h1>
+        <p>Rua da Penha, 133 - Rio de Janeiro | Entregamos na sua casa</p>
+    </header>
+    <div class="container">
+        <div class="menu-section">
+            <h2>Pratos Principais</h2>
+            <div class="menu-item">
+                <span>Moussaka</span>
+                <span>R$ 120</span>
+            </div>
+            <div class="menu-item">
+                <span>Souvlaki de Carne</span>
+                <span>R$ 90</span>
+            </div>
+            <div class="menu-item">
+                <span>Pasticcio</span>
+                <span>R$ 110</span>
+            </div>
+        </div>
+        <div class="menu-section">
+            <h2>Bebidas</h2>
+            <div class="menu-item">
+                <span>Vinho Grego</span>
+                <span>R$ 50</span>
+            </div>
+            <div class="menu-item">
+                <span>Ouzo</span>
+                <span>R$ 40</span>
+            </div>
+            <div class="menu-item">
+                <span>Água com Limão</span>
+                <span>R$ 30</span>
+            </div>
+        </div>
+        <div class="menu-section">
+            <h2>Sobremesas</h2>
+            <div class="menu-item">
+                <span>Baklava</span>
+                <span>R$ 60</span>
+            </div>
+            <div class="menu-item">
+                <span>Loukoumades</span>
+                <span>R$ 50</span>
+            </div>
+            <div class="menu-item">
+                <span>Kataifi</span>
+                <span>R$ 70</span>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2em;">
+            <a class="button" href="https://wa.me" target="_blank">Aperte o botão para pedir</a>
+        </div>
+    </div>
+    <footer>
+        <p>Obrigado por escolher o Grecian Food!</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
